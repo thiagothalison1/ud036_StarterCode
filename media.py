@@ -1,6 +1,7 @@
 class Movie:
 
-    def __init__(self, title, description, poster_img_url, trailer_url, imdb_page_url):
+    def __init__(self, title, description, poster_img_url, trailer_url,
+                 imdb_page_url):
         """Holds the information of a movie
 
         Args:
@@ -8,7 +9,7 @@ class Movie:
             description (str): A short synopsis for the movie.
             poster_img_url (str): A url for the movie's poster image.
             trailer_url (str): The Youtube url for the movie's trailer.
-            imdb_page_url (str): The url for the movie's IMDB page. 
+            imdb_page_url (str): The url for the movie's IMDB page.
         """
         self.title = title
         self.description = description
