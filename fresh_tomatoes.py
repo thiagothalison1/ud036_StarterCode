@@ -123,8 +123,8 @@ main_page_content = '''
 
 # A single movie entry html template
 movie_tile_content = '''
-    <div class="col-md-6 col-lg-4 movie-tile text-center">
-        <img class="movie-poster" src="{poster_img_url}" width="220" height="342" data-trailer-youtube-id="{trailer_youtube_id}" data-toggle="modal" data-target="#trailer">
+    <div class="col-md-6 col-lg-4 movie-tile text-center" data-trailer-youtube-id="{trailer_youtube_id}">
+        <img class="movie-poster" src="{poster_img_url}" width="220" height="342" data-toggle="modal" data-target="#trailer">
         <h2>{movie_title}</h2>
         <a href="{imdb_page_url}" target="_blank"><img src="images/imdb_icon.png" style="width: 15%; height: 15%"/></a>
     </div>
